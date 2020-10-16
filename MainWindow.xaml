@@ -46,17 +46,18 @@
 
 
 
+        <TextBox x:Name="txtQuantity" HorizontalAlignment="Left" Margin="153,289,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" FontWeight="Normal"/>
 
         <Menu x:Name="mnuMain" HorizontalAlignment="Left" Height="21" VerticalAlignment="Top"
-Width="131" Margin="0,26,0,0">
+Width="130" Margin="0,31,0,0">
             <MenuItem Header="File">
                 <MenuItem Header="Exit"/>
             </MenuItem>
-            <MenuItem Header="_Doughnuts">
+            <MenuItem Header="Doughnuts">
                 <MenuItem Header="Make">
                     <MenuItem Header="Raised">
-                        <MenuItem x:Name="glazedMenuItem" Header="Glazed"/>
-                        <MenuItem x:Name="sugarMenuItem" Header="Sugar"/>
+                        <MenuItem Header="Glazed"/>
+                        <MenuItem Header="Sugar"/>
                     </MenuItem>
                     <MenuItem Header="Filled">
                         <MenuItem Header="Lemon"/>
@@ -64,8 +65,9 @@ Width="131" Margin="0,26,0,0">
                         <MenuItem Header="Vanilla"/>
                     </MenuItem>
                 </MenuItem>
+                <MenuItem Header="Stop"/>
             </MenuItem>
         </Menu>
-        <TextBox x:Name="txtQuantity" HorizontalAlignment="Left" Margin="153,289,0,0" Text="0" TextWrapping="Wrap" VerticalAlignment="Top" Width="73" FontWeight="Normal"/>
+
     </Grid>
 </Window>
